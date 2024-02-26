@@ -1,0 +1,131 @@
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   background-color: black;
+}
+/* Navber section css  */
+#Nav-btn{
+    color: #ffffff;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 12px 3px #b58ff4;
+}
+
+.Myself{
+    text-align: justify;
+    padding-bottom: 10px;
+    font-size:  20px;
+}
+.my-name{
+    color: #5a28e3;
+}
+.my-name:hover{
+    color: #c6270b;
+    transition: .6s;
+}
+
+#github-button{
+    text-decoration: none;
+    background-image: linear-gradient(#5b4bf4, #af2bed);
+    color: white;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+#github-button:hover{
+    background-image: linear-gradient(rgb(244, 69, 39),orange);
+    transition: 2s;
+}
+#imgid{
+    width: 650px;;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom:120px;
+    padding-left: 90px;
+}
+
+#About1-img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+#aboutMe{
+    color: #5a28e3;
+}
+#aboutMe:hover{
+    color: #e25113;
+}
+#AboutMe-img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+  }
+
+#CardDiv{
+    background-color: #34064a;
+    color: #ffffff;
+}
+
+
+
+#Formid{
+    box-sizing: border-box;
+    box-shadow:2px 3px 3px 3px  #210815;
+    background-color: #400b50;
+    padding: 30px;
+
+}
+#Contact-Btn{color: #ffffff;
+background-color: black;
+box-sizing: border-box;
+box-shadow: 2px 3px 3px 3px #dfd3f3; }
+
+
+
+#FooterLogo{
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+#SkillCardid{
+    background-color: #260e31;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width:576px){
+  #Contact-Btn{
+    display: flex;
+    justify-content: center;
+   
+  } 
+    
+    #imgid{
+        width: 600px;;
+       
+    }
+    
+    #AboutMe-img{
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+        
+      }
+
+    
+}
